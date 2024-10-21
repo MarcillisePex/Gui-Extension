@@ -1,0 +1,12 @@
+
+  local CreditsSection = main:CreateTab({name = "Discord"})
+local CreditsLabel = CreditsSection:Label({name = "Discord Link"})
+
+
+CreditsSection:Button({name = "Copy Link", callback = function()
+
+setclipboard("discord.gg/Y7gEsR5GGH")
+		 
+end,})   
+
+CreditsSection:ImageLabel({imageID = "rbxassetid://88402104534370"})
